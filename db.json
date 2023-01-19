@@ -1,0 +1,306 @@
+{
+  "books": [
+    {
+      "kind": "books#volume",
+      "id": "K8MlwAEACAAJ",
+      "etag": "zoWLUnqSlAA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/K8MlwAEACAAJ",
+      "volumeInfo": {
+        "title": "ttrr",
+        "authors": "23",
+        "description": "-volume edition of Tolkien's classic masterpiece that is fully illustrated in watercolour throughout by the acclaimed and award-winning artist, Alan Lee. Since it was first published in 1954, The Lord of the Rings has been a book people have treasured. Steeped in unrivalled magic and otherworldliness, its sweeping fantasy has touched the hearts of young and old alike. Well over 100 million copies of its many editions have been sold around the world, and occasional collectors' editions become prized and valuable items of publishing. With the epic trilogy now an acclaimed, award-winning and billion-dollar success, images of the characters and landscapes have become iconic to a whole new generation of readers. Much of the look of these movies is based on Alan Lee's paintings, giving this sumptuous new edition of Tolkien's great work new relevance for the ever-growing number of fans.",
+        "imageLinks": {
+          "thumbnail": "https://picsum.photos/200/300"
+        }
+      },
+      "saleInfo": {
+        "country": "RO",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RO",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=K8MlwAEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "title": "qwer",
+      "authors": "23",
+      "description": "daaaaa",
+      "thumbnail": "https://picsum.photos/200/300"
+    },
+    {
+      "kind": "books#volume",
+      "id": "ctkoAwAAQBAJ",
+      "etag": "+8GBmm5Sz/4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ctkoAwAAQBAJ",
+      "volumeInfo": {
+        "title": "The Idiot",
+        "authors": [
+          "Fyodor Dostoyevsky",
+          "Constance Garnett"
+        ],
+        "publisher": "Courier Corporation",
+        "publishedDate": "2003-12-12",
+        "description": "Splendid novel of mid-19th-century Russian manners, morals, and philosophy focuses on a nobleman whose gentle, child-like nature has earned him the nickname of \"the idiot.\"",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780486432137"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0486432130"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 548,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 2.5,
+        "ratingsCount": 8,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ctkoAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ctkoAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ro/books?id=ctkoAwAAQBAJ&printsec=frontcover&dq=idiot&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.ro/books?id=ctkoAwAAQBAJ&dq=idiot&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Idiot.html?hl=&id=ctkoAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "RO",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RO",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ro/books/download/The_Idiot-sample-pdf.acsm?id=ctkoAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ctkoAwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Splendid novel of mid-19th-century Russian manners, morals, and philosophy focuses on a nobleman whose gentle, child-like nature has earned him the nickname of &quot;the idiot.&quot;"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3lv8ZutPETsC",
+      "etag": "yoad953R75k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3lv8ZutPETsC",
+      "volumeInfo": {
+        "title": "Guide to the Perfect Latin American Idiot",
+        "authors": [
+          "Plinio Apuleyo Mendoza",
+          "Carlos Alberto Montaner",
+          "Alvaro Vargas Llosa"
+        ],
+        "publisher": "Rowman & Littlefield",
+        "publishedDate": "2001",
+        "description": "Three Latin American writers quote, dissect and review this character in a cultural critique that combines analysis with humor and a relentless self-criticism.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781568332369"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "156833236X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 238,
+        "printType": "BOOK",
+        "categories": [
+          "Social Science"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3lv8ZutPETsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3lv8ZutPETsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ro/books?id=3lv8ZutPETsC&printsec=frontcover&dq=idiot&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.ro/books?id=3lv8ZutPETsC&dq=idiot&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Guide_to_the_Perfect_Latin_American_Idio.html?hl=&id=3lv8ZutPETsC"
+      },
+      "saleInfo": {
+        "country": "RO",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RO",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ro/books/download/Guide_to_the_Perfect_Latin_American_Idio-sample-pdf.acsm?id=3lv8ZutPETsC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3lv8ZutPETsC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Three Latin American writers quote, dissect and review this character in a cultural critique that combines analysis with humor and a relentless self-criticism."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "h8daAAAAYAAJ",
+      "etag": "06em7omGIAQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/h8daAAAAYAAJ",
+      "volumeInfo": {
+        "title": "The Complete Idiot's Guide to Psychology",
+        "authors": [
+          "Joni E. Johnston"
+        ],
+        "publisher": "Alpha Books",
+        "publishedDate": "2009",
+        "description": "A latest edition of a comprehensive supplement for students and self-help readers, written by an award-winning clinical practitioner, provides accessible coverage of topics ranging from child psychology and personality disorders to mood-altering drugs and forensics. Original.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1592578918"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781592578917"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 435,
+        "printType": "BOOK",
+        "categories": [
+          "Psychology"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=h8daAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=h8daAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ro/books?id=h8daAAAAYAAJ&q=idiot&dq=idiot&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.ro/books?id=h8daAAAAYAAJ&dq=idiot&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Complete_Idiot_s_Guide_to_Psychology.html?hl=&id=h8daAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "RO",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RO",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=h8daAAAAYAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "E You re no <b>idiot</b>, of course. You know that aspects of psychology extend into just about everything in life, but you need to get a handle on exactly why the mind matters and how it affects you and everyone around you."
+      },
+      "title": "qwer",
+      "authors": "23",
+      "description": "-volume edition of Tolkien's classic masterpiece that is fully illustrated in watercolour throughout by the acclaimed and award-winning artist, Alan Lee. Since it was first published in 1954, The Lord of the Rings has been a book people have treasured. Steeped in unrivalled magic and otherworldliness, its sweeping fantasy has touched the hearts of young and old alike. Well over 100 million copies of its many editions have been sold around the world, and occasional collectors' editions become prized and valuable items of publishing. With the epic trilogy now an acclaimed, award-winning and billion-dollar success, images of the characters and landscapes have become iconic to a whole new generation of readers. Much of the look of these movies is based on Alan Lee's paintings, giving this sumptuous new edition of Tolkien's great work new relevance for the ever-growing number of fans.",
+      "thumbnail": "https://picsum.photos/200/300"
+    },
+    {
+      "title": "red",
+      "authors": "me",
+      "id": "BZqOpUL"
+    },
+    {
+      "volumeInfo": {
+        "title": "Colorado's Sangre de Cristo Mountains",
+        "authors": [
+          "Tom Wolf"
+        ],
+        "description": "Wolf (Southwest studies, Colorado College; Society of American Foresters) shows how the Sangre de Cristo Mountains' recent Wilderness designation may weaken links between their ecology and the economies of the surrounding human communities. He examines the environmental history of the Sangres' large",
+        "imageLinks": {
+          "thumbnail": "http://books.google.com/books/content?id=50oUAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        }
+      },
+      "id": "faSxmfB"
+    },
+    {
+      "volumeInfo": {
+        "title": "Bleach, Vol. 13",
+        "authors": [
+          "Tite Kubo"
+        ],
+        "description": "Part-time student, full-time Soul Reaper, Ichigo is one of the chosen few guardians of the afterlife. Ichigo Kurosaki never asked for the ability to see ghosts—he was born with the gift. When his family is attacked by a Hollow—a malevolent lost soul—Ichigo becomes a Soul Reaper, dedicating his life to protecting the innocent and helping the tortured spirits themselves find peace. Find out why Tite Kubo’s Bleach has become an international manga smash-hit! Chad has stormed his way into the heart of the Soul Society, only to meet his match in Captain Kyôraku. Meanwhile, Ichigo struggles in his battle against Kenpachi Zaraki, the captain of the 11th company. Although Ichigo succeeds in drawing blood, the secret of Kenpachi's zanpaku-tô may be his undoing. Before Ichigo realizes it, Kenpachi's blade has pierced his heart!",
+        "imageLinks": {
+          "thumbnail": "http://books.google.com/books/content?id=P4jJLTBvYQ8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        }
+      },
+      "id": "VL5O1fw"
+    }
+  ]
+}
