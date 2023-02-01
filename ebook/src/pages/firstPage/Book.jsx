@@ -24,7 +24,7 @@ export default function Book(props) {
 
   return (
     <div>
-      <li className="flex m-10 bg-gray-400 border-t-4 w-screen" key={key}>
+      <li className="flex m-10 bg-gray-400 border-t-4 w-screen-1/2" key={key}>
         <img src={thumbnail} alt={title} />
         <div>
           <p className="font-bold">{title}</p>
