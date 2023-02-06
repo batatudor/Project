@@ -7,7 +7,12 @@ export default function Login() {
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [repeatPassword, setRepeatPassword] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
+
+  const [passwordError, setPasswordError] = useState('');
+  const [emailError, setEmailError] = useState('');
+  const [confirmError, setConfirmError] = useState('');
 
   function firstNameLogin(event) {
     setFirstName(event.target.value);
@@ -25,12 +30,27 @@ export default function Login() {
     setPassword(event.target.value);
   }
 
+  function repeatLogin(event) {
+    setRepeatPassword(event.target.value);
+  }
+
   function phoneNumberLogin(event) {
     setPhoneNumber(event.target.value);
   }
 
   function Submit(e) {
     e.preventDefault();
+    setEmailError('');
+    setPasswordError('');
+    setConfirmError('');
+
+    const emailValid = validateEmail(email);
+    const passwordValid = validatePassword(password);
+    const confirmValid = validateConfirmPassword(repeatPassword);
+
+    if (!emailValid || !passwordValid || !confirmValid) {
+      return;
+    }
 
     axios
       .post('http://localhost:3004/users', {
@@ -41,6 +61,81 @@ export default function Login() {
         phoneNumber: phoneNumber,
       })
       .then((data) => console.log(data));
+
+    function validateConfirmPassword() {
+      if (repeatPassword === '' || repeatPassword !== password) {
+        setConfirmError('Password dont matched');
+      } else {
+        return true;
+      }
+    }
+
+    function validateEmail(email) {
+      const emailRegex =
+        /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/i;
+
+      const emailValid = emailRegex.test(email);
+
+      if (!emailValid) {
+        setEmailError('Please enter a valid email');
+      }
+
+      return emailValid;
+    }
+  }
+
+  function validatePassword(password) {
+    const specialCharacterList = ['!', '@', '#', '$', '%', '^', '&', '*'];
+
+    if (!(password.length >= 6)) {
+      setPasswordError('Password must contain at least 6 characters');
+
+      return false;
+    }
+
+    let hasUpperCaseCharacter = false;
+    let hasNumberCharacter = false;
+    let hasSpecialCharacter = false;
+
+    for (let letter of password) {
+      if (
+        !specialCharacterList.includes(letter) &&
+        Number.isNaN(Number(letter)) &&
+        letter === letter.toUpperCase()
+      ) {
+        hasUpperCaseCharacter = true;
+      }
+
+      if (typeof Number(letter) === 'number') {
+        hasNumberCharacter = true;
+      }
+
+      if (specialCharacterList.includes(letter)) {
+        hasSpecialCharacter = true;
+      }
+    }
+
+    if (!hasUpperCaseCharacter) {
+      setPasswordError(
+        'Your password must have at least one upper case character'
+      );
+    }
+
+    if (!hasNumberCharacter) {
+      setPasswordError('Your password must include at least one number');
+    }
+
+    if (!hasSpecialCharacter) {
+      setPasswordError(
+        'Your password must include at least one special character'
+      );
+    }
+
+    if (hasUpperCaseCharacter && hasNumberCharacter && hasSpecialCharacter) {
+      return true;
+    }
+
+    return false;
   }
 
   return (
@@ -66,6 +161,7 @@ export default function Login() {
       <div>
         <label htmlFor="email">Email: </label>
         <input id="email" type="email" value={email} onChange={emailLogin} />
+        <p>{emailError}</p>
       </div>
       <div>
         <label htmlFor="password">Password: </label>
@@ -75,10 +171,17 @@ export default function Login() {
           value={password}
           onChange={passwordLogin}
         />
+        <p>{passwordError}</p>
       </div>
       <div>
         <label htmlFor="repeatPassword">Repeat Password: </label>
-        <input id="repetPassword" type="password" />
+        <input
+          id="repetPassword"
+          type="password"
+          value={repeatPassword}
+          onChange={repeatLogin}
+        />
+        <p>{confirmError}</p>
       </div>
       <div>
         <label htmlFor="phoneNumber">Phone Number: </label>
