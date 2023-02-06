@@ -60,7 +60,8 @@ export default function Login() {
         password: password,
         phoneNumber: phoneNumber,
       })
-      .then((data) => console.log(data));
+      .then((data) => console.log(data))
+      .then((data) => console.log(data.auth.accessToken));
 
     function validateConfirmPassword() {
       if (repeatPassword === '' || repeatPassword !== password) {
