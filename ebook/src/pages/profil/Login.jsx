@@ -1,6 +1,7 @@
 import axios from 'axios';
-import React from 'react';
+import React, { useContext } from 'react';
 import { useState } from 'react';
+import { AuthContext } from '../../App';
 
 export default function Login() {
   const [firstName, setFirstName] = useState('');
@@ -13,6 +14,8 @@ export default function Login() {
   const [passwordError, setPasswordError] = useState('');
   const [emailError, setEmailError] = useState('');
   const [confirmError, setConfirmError] = useState('');
+
+  const { auth, setAuth } = useContext(AuthContext);
 
   function firstNameLogin(event) {
     setFirstName(event.target.value);
@@ -60,8 +63,11 @@ export default function Login() {
         password: password,
         phoneNumber: phoneNumber,
       })
-      .then((data) => console.log(data))
-      .then((data) => console.log(data.auth.accessToken));
+      .then((data) => {
+        // console.log(data);
+        // console.log(data.data.accessToken);
+        setAuth(data);
+      });
 
     function validateConfirmPassword() {
       if (repeatPassword === '' || repeatPassword !== password) {

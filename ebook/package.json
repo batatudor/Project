@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:server": "json-server-auth --watch db.json -p 3004  ",
+    "start:server": "json-server-auth --watch db.json -p 3004 -r routes.json ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

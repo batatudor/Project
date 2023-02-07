@@ -1,19 +1,31 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../App';
 import BookProfilPage from './BookProfilPage';
 
 export default function ProfilPage() {
   const url = 'http://localhost:3004/books';
   const navigate = useNavigate();
 
+  const { auth } = useContext(AuthContext);
+
   const [result, setResult] = useState([]);
   useEffect(() => {
-    axios.get(url).then((data) => {
-      console.log(data);
-      console.log(data.data);
-      setResult(data.data);
-    });
+    console.log(auth.data.accessToken);
+    const test = auth?.data?.accessToken;
+
+    axios
+      .get(url, {
+        headers: {
+          authorization: `Bearer ${test}`,
+        },
+      })
+      .then((data) => {
+        // console.log(data);
+        // console.log(data.data);
+        setResult(data.data);
+      });
   }, []);
 
   return (
