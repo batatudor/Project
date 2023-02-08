@@ -1,6 +1,7 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../App';
 import Book from './Book';
 
 export default function FirstPage() {
@@ -9,6 +10,7 @@ export default function FirstPage() {
     'AIzaSyB4hSbZnhW7bbxINLO04MBlANitt4R_Hy0'
   );
   const [result, setResult] = useState([]);
+  const { auth, logOut, logIn } = useContext(AuthContext);
 
   function BookSearch(event) {
     const book = event.target.value;
@@ -63,8 +65,18 @@ export default function FirstPage() {
           <a className="mr-10" href="/">
             About
           </a>
+          {auth?.data?.accessToken ? (
+            <button onClick={logOut} className="bg-red-800 ">
+              LogOut
+            </button>
+          ) : (
+            <button onClick={logIn} className="bg-red-800 ">
+              Log In
+            </button>
+          )}
         </div>
       </div>
+
       <ul className="flex flex-col items-start gap-10 mt-20 ">
         {result.map((book, index) => {
           /* {

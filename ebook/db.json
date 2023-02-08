@@ -46,7 +46,10 @@
       "selfLink": "https://www.googleapis.com/books/v1/volumes/ctkoAwAAQBAJ",
       "volumeInfo": {
         "title": "The Idiot",
-        "authors": ["Fyodor Dostoyevsky", "Constance Garnett"],
+        "authors": [
+          "Fyodor Dostoyevsky",
+          "Constance Garnett"
+        ],
         "publisher": "Courier Corporation",
         "publishedDate": "2003-12-12",
         "description": "Splendid novel of mid-19th-century Russian manners, morals, and philosophy focuses on a nobleman whose gentle, child-like nature has earned him the nickname of \"the idiot.\"",
@@ -66,7 +69,9 @@
         },
         "pageCount": 548,
         "printType": "BOOK",
-        "categories": ["Fiction"],
+        "categories": [
+          "Fiction"
+        ],
         "averageRating": 2.5,
         "ratingsCount": 8,
         "maturityRating": "NOT_MATURE",
@@ -142,7 +147,9 @@
         },
         "pageCount": 238,
         "printType": "BOOK",
-        "categories": ["Social Science"],
+        "categories": [
+          "Social Science"
+        ],
         "averageRating": 4,
         "ratingsCount": 2,
         "maturityRating": "NOT_MATURE",
@@ -194,7 +201,9 @@
       "selfLink": "https://www.googleapis.com/books/v1/volumes/h8daAAAAYAAJ",
       "volumeInfo": {
         "title": "The Complete Idiot's Guide to Psychology",
-        "authors": ["Joni E. Johnston"],
+        "authors": [
+          "Joni E. Johnston"
+        ],
         "publisher": "Alpha Books",
         "publishedDate": "2009",
         "description": "A latest edition of a comprehensive supplement for students and self-help readers, written by an award-winning clinical practitioner, provides accessible coverage of topics ranging from child psychology and personality disorders to mood-altering drugs and forensics. Original.",
@@ -214,7 +223,9 @@
         },
         "pageCount": 435,
         "printType": "BOOK",
-        "categories": ["Psychology"],
+        "categories": [
+          "Psychology"
+        ],
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
         "contentVersion": "0.2.1.0.preview.0",
@@ -268,7 +279,9 @@
     {
       "volumeInfo": {
         "title": "Colorado's Sangre de Cristo Mountains",
-        "authors": ["Tom Wolf"],
+        "authors": [
+          "Tom Wolf"
+        ],
         "description": "Wolf (Southwest studies, Colorado College; Society of American Foresters) shows how the Sangre de Cristo Mountains' recent Wilderness designation may weaken links between their ecology and the economies of the surrounding human communities. He examines the environmental history of the Sangres' large",
         "imageLinks": {
           "thumbnail": "http://books.google.com/books/content?id=50oUAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
@@ -279,7 +292,9 @@
     {
       "volumeInfo": {
         "title": "Bleach, Vol. 13",
-        "authors": ["Tite Kubo"],
+        "authors": [
+          "Tite Kubo"
+        ],
         "description": "Part-time student, full-time Soul Reaper, Ichigo is one of the chosen few guardians of the afterlife. Ichigo Kurosaki never asked for the ability to see ghosts—he was born with the gift. When his family is attacked by a Hollow—a malevolent lost soul—Ichigo becomes a Soul Reaper, dedicating his life to protecting the innocent and helping the tortured spirits themselves find peace. Find out why Tite Kubo’s Bleach has become an international manga smash-hit! Chad has stormed his way into the heart of the Soul Society, only to meet his match in Captain Kyôraku. Meanwhile, Ichigo struggles in his battle against Kenpachi Zaraki, the captain of the 11th company. Although Ichigo succeeds in drawing blood, the secret of Kenpachi's zanpaku-tô may be his undoing. Before Ichigo realizes it, Kenpachi's blade has pierced his heart!",
         "imageLinks": {
           "thumbnail": "http://books.google.com/books/content?id=P4jJLTBvYQ8C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
@@ -290,7 +305,9 @@
     {
       "volumeInfo": {
         "title": "Learning React Native",
-        "authors": ["Bonnie Eisenman"],
+        "authors": [
+          "Bonnie Eisenman"
+        ],
         "description": "Get a practical introduction to React Native, the JavaScript framework for writing and deploying fully featured mobile apps that look and feel native. With this hands-on guide, you’ll learn how to build applications that target iOS, Android, and other mobile platforms instead of browsers. You’ll also discover how to access platform features such as the camera, user location, and local storage. With code examples and step-by-step instructions, author Bonnie Eisenman shows web developers and frontend engineers how to build and style interfaces, use mobile components, and debug and deploy apps. Along the way, you’ll build several increasingly sophisticated sample apps with React Native before putting everything together at the end. Learn how React Native provides an interface to native UI components Examine how the framework uses native components analogous to HTML elements Create and style your own React Native components and applications Install modules for APIs and features not supported by the framework Get tools for debugging your code, and for handling issues outside of JavaScript Put it all together with the Zebreto effective-memorization flashcard app Deploy apps to the iOS App Store and Google’s Play Store",
         "imageLinks": {
           "thumbnail": "http://books.google.com/books/content?id=274fCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
@@ -301,7 +318,9 @@
     {
       "volumeInfo": {
         "title": "YouTube Marketing For Dummies",
-        "authors": ["Will Eagle"],
+        "authors": [
+          "Will Eagle"
+        ],
         "description": "Advice from a YouTube insider on how to creative effective campaigns YouTube is the top destination for online video. With over a billion viewers around the globe, it's also valuable real estate for marketers looking to get their message out. YouTube Marketing For Dummies shares insight from a former YouTube employee who helped large and small businesses create effective marketing campaigns. Inside, you’ll discover proven game plans for buying advertising, launching a content marketing campaign, building a branded channel and community, and evaluating the results of your work. Plus, you’ll find trusted, proven ways to get the most bang for your buck from the internet’s #1 destination for video content. Create a plan that fits your business needs Launch an ad campaign Find video creation strategies Launch a branded channel Are you ready to identify, launch, and measure a YouTube marketing campaign? Everything you need is a page away!",
         "imageLinks": {
           "thumbnail": "http://books.google.com/books/content?id=jyuFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
@@ -312,7 +331,9 @@
     {
       "volumeInfo": {
         "title": "Noaptea în care l-am întâlnit pe Moș Crăciun",
-        "authors": ["Ben Miller"],
+        "authors": [
+          "Ben Miller"
+        ],
         "description": "„O lectură încântătoare pentru copii mici și mari.\" Ruth Jones „Încântătoare, amuzantă și interesantă în egală măsură.\" Philip Ardagh „Dialoguri pline de căldură și umor inteligent… o carte irezistibilă.\" Alexander Armstrong Jackson știe totul despre renii zburători, elfi și atelierul secret de la Polul Nord, știe despre magia care îl ajută pe Moș Crăciun să ducă daruri peste tot în lume într-o singură noapte; un lucru însă nu știe… cum a ajuns Moș Crăciun să fie Moș Crăciun? Lucrurile se schimbă când, într-o noapte de Ajun, Jackson îl cunoaște pe Moș Crăciun și îi ascultă incredibila poveste. Așa începe aventura: într-un peisaj magic de iarnă, unde Torvil, un elf răutăcios, este pe cale să descopere adevărata menire a Crăciunului. Poate că nu e chiar povestea pe care o aștepta Jackson, dar, cum spune Moș Crăciun, nu există poveste perfectă. Ben Miller este actor și regizor, cunoscut publicului din The Armstrong and Miller Show și ca partener al lui Rowan Atkinson în Johnny English Strikes Again. A mai avut roluri în What We Did on Our Holiday, cu Billy Connolly, și în îndrăgitul film Paddington 2. A jucat și în celebrul serial polițist Death in Paradise. Acesta este primul său roman pentru copii.",
         "imageLinks": {
           "thumbnail": "http://books.google.com/books/content?id=MPV2EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
@@ -425,6 +446,54 @@
       "lastName": "Bata",
       "phoneNumber": "0745115408",
       "id": 44
+    },
+    {
+      "email": "tudorbata123@gmail.com",
+      "password": "$2a$10$JrIupktBF6HgrfV7xUhV1ekHsObmz8Udy/36q2ilaH/ryLcKNMCry",
+      "firstName": "Tudor",
+      "lastName": "Bata",
+      "phoneNumber": "0745115408",
+      "id": 45
+    },
+    {
+      "email": "tudorbata124@gmail.com",
+      "password": "$2a$10$q/AUIYJ4nq0qspOYroo0UeMgjvYJGbtDU48L1mCbr3vePNhTmNJli",
+      "firstName": "Tudor",
+      "lastName": "Bata",
+      "phoneNumber": "0745115408",
+      "id": 46
+    },
+    {
+      "email": "tudorbatawert@gmail.com",
+      "password": "$2a$10$ZXkPfMRqjjibEqY0OQjlQufRnITWCEcMkzJkCu6hDQ54k.H5HNMw6",
+      "firstName": "Tudor",
+      "lastName": "Bata",
+      "phoneNumber": "0745115408",
+      "id": 47
+    },
+    {
+      "email": "tudorta@gmail.com",
+      "password": "$2a$10$KQA.3NAcvG1pvJj.YUnEnedX0qCeG/D9rZs8XIS3DCvZtp54ebja2",
+      "firstName": "Tudor",
+      "lastName": "Bata",
+      "phoneNumber": "0745115408",
+      "id": 48
+    },
+    {
+      "email": "tudorbata69@gmail.com",
+      "password": "$2a$10$qV4KPd4gbqctM9Mb4H9y/e5Ci1rmKD.NktupQ4rZelaYrlBRFDE32",
+      "firstName": "Tudor",
+      "lastName": "Bata",
+      "phoneNumber": "0745115408",
+      "id": 49
+    },
+    {
+      "email": "tudorbatakl@gmail.com",
+      "password": "$2a$10$3qev6x3TzUBNM5.x5yE0YuFeZoqWXJXzMouYfvJES0eZ.cWkvsUqu",
+      "firstName": "Tudor",
+      "lastName": "Bata",
+      "phoneNumber": "0745115408",
+      "id": 50
     }
   ]
 }

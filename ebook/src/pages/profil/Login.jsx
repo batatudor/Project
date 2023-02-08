@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useContext } from 'react';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../App';
 
 export default function Login() {
@@ -16,6 +17,8 @@ export default function Login() {
   const [confirmError, setConfirmError] = useState('');
 
   const { auth, setAuth } = useContext(AuthContext);
+
+  const navigate = useNavigate();
 
   function firstNameLogin(event) {
     setFirstName(event.target.value);
@@ -67,6 +70,7 @@ export default function Login() {
         // console.log(data);
         // console.log(data.data.accessToken);
         setAuth(data);
+        navigate('/');
       });
 
     function validateConfirmPassword() {

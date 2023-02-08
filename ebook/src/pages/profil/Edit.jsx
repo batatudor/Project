@@ -1,10 +1,13 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { AuthContext } from '../../App';
 
 export default function Edit() {
   const url = 'http://localhost:3004/books';
   const { id } = useParams();
+
+  const { auth } = useContext(AuthContext);
 
   const [title, setTitle] = useState('');
   const [authors, setAuthors] = useState('');
@@ -12,14 +15,22 @@ export default function Edit() {
   const [thumbnail, setThumbnail] = useState('');
 
   useEffect(() => {
-    axios.get(`http://localhost:3004/books/${id}`).then((book) => {
-      console.log(book);
-      const { data } = book;
-      setTitle(data?.volumeInfo?.title);
-      setAuthors(data?.volumeInfo?.authors);
-      setDescription(data?.volumeInfo?.description);
-      setThumbnail(data?.volumeInfo?.imageLinks?.thumbnail);
-    });
+    const test = auth?.data?.accessToken;
+
+    axios
+      .get(`http://localhost:3004/books/${id}`, {
+        headers: {
+          authorization: `Bearer ${test}`,
+        },
+      })
+      .then((book) => {
+        console.log(book);
+        const { data } = book;
+        setTitle(data?.volumeInfo?.title);
+        setAuthors(data?.volumeInfo?.authors);
+        setDescription(data?.volumeInfo?.description);
+        setThumbnail(data?.volumeInfo?.imageLinks?.thumbnail);
+      });
   }, []);
 
   function authorsChange(event) {
