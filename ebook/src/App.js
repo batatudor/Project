@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import FirstPage from './pages/firstPage/FirstPage';
 import Edit from './pages/profil/Edit';
-import Login from './pages/profil/Login';
+import Login from './pages/profil/Register';
 import ProfilPage from './pages/profil/ProfilPage';
 import React, { useEffect, useState } from 'react';
 import { AuthContextProvider } from './pages/profil/Auth-Contect';
