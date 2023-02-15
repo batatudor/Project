@@ -494,6 +494,14 @@
       "lastName": "Bata",
       "phoneNumber": "0745115408",
       "id": 50
+    },
+    {
+      "email": "tudorbata456@gmail.com",
+      "password": "$2a$10$JqHxIBg7DjlTNJ56nwhpQu/r.SuV2IE0WaoQdQtwNCYjax7nt7UKa",
+      "firstName": "Tudor",
+      "lastName": "Bata",
+      "phoneNumber": "0745115408",
+      "id": 51
     }
   ]
 }
