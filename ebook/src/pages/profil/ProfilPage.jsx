@@ -12,7 +12,7 @@ export default function ProfilPage() {
 
   const [result, setResult] = useState([]);
   useEffect(() => {
-    console.log(auth.data.accessToken);
+    console.log(auth?.data?.accessToken);
     const test = auth?.data?.accessToken;
 
     axios
@@ -24,7 +24,7 @@ export default function ProfilPage() {
       .then((data) => {
         // console.log(data);
         // console.log(data.data);
-        setResult(data.data);
+        setResult(data?.data);
       });
   }, []);
 
