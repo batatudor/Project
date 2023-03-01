@@ -6,6 +6,7 @@ import ProfilPage from './pages/profil/ProfilPage';
 import React, { useEffect, useState } from 'react';
 import { AuthContextProvider } from './pages/profil/Auth-Contect';
 import Register from './pages/profil/Register';
+import MyProfile from './pages/profil/MyProfile';
 
 export const AuthContext = React.createContext();
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/profil/edit/:id" element={<Edit />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>
+          <Route path="/myprofile" element={<MyProfile />}></Route>
         </Routes>
       </AuthContextProvider>
     </BrowserRouter>
